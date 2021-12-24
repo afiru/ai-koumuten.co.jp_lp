@@ -80,7 +80,7 @@
                 <p class="ma_10 fs_14_14 li_14_20 bottom_text_li_subdivision_info"><?php echo nl2br($field_value['page_area_info_address']); ?></p>
                 <?php if(!empty($field_value['page_area_info_tel'])): ?>
                 <p class="ma_10 fw_600 fs_20_20 tel_li_subdivision_info">
-        <a class="button_tel_li_subdivision_info" href="tel:<?php echo $field_value['page_area_info_tel']; ?>" onclick="gtag('event', 'tel', {'event_category': '電話お問合せ','event_label': '<?php SetUrl(); ?>'});">TEL:<?php echo $field_value['page_area_info_tel']; ?></a>
+        <a class="button_tel_li_subdivision_info" href="tel:<?php echo $field_value['page_area_info_tel']; ?>">TEL:<?php echo $field_value['page_area_info_tel']; ?></a>
         		</p>
                 <?php endif; ?>
             </li>
