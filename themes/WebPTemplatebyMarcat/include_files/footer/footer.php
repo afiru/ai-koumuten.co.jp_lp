@@ -6,7 +6,7 @@
             <figure class="footer_logo_fig ">
                 <img src="<?php echo get_bloginfo('template_url'); ?>/img/footer_logo.svg" alt="アイ工務店フッターロゴ" width="" height="">
             </figure>
-            <a class="footer_sns" href="" target="_blank">
+            <a class="footer_sns" href="https://www.instagram.com/aiminamiosaka/" target="_blank">
                 <img src="<?php echo get_bloginfo('template_url'); ?>/img/icon_sns.svg" alt="Instagramアイコン" width="" height="">
             </a>
         </div>
