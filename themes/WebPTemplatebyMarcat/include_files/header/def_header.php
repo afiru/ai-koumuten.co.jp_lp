@@ -7,7 +7,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MMCWDKF');</script>
+<!-- End Google Tag Manager -->
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1770271169843454');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1770271169843454&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 <meta charset="UTF-8">
 <meta content="text/css" http-equiv="Content-Style-Type" />
 <meta content="text/javascript" http-equiv="Content-Script-Type" />
@@ -17,6 +40,7 @@
 <meta name="Robots" content="noodp">
 <meta name="Author" content="Marcatucube">
 <meta name="copyright" content="" />
+<meta name="facebook-domain-verification" content="m3qswm6nuiw6rzfxhhq82rqq8iokue" />
 <meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <?php //タイトルの設定。【トップページ】カスタマイザーのSEOタイトル　【下層】ページタイトル｜カスタマイザーのSEOタイトル　 ?>
 <title><?php echo get_the_site_title(get_php_customzer('seo_title')); ?></title>
@@ -29,6 +53,10 @@
 <meta name="facebook-domain-verification" content="z58rbxif19dzjtygi0xtlr4mucq85b" />
 </head>
 <body id="page_top">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMCWDKF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <div id="page_wapper_master" class="wapper">
 <?php echo get_php_customzer('body_after_code'); ?>
 <div id="scroll_on" class="base_header">
